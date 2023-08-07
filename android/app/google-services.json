@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "241170911565",
+    "project_id": "fireship-quiz-56e70",
+    "storage_bucket": "fireship-quiz-56e70.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:241170911565:android:1e949794dd06c053926704",
+        "android_client_info": {
+          "package_name": "io.fireship.quizzapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "241170911565-acja58epjnuv5gugvh97566qqoqofcnm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.fireship.quizzapp",
+            "certificate_hash": "74f0801650eb839f70ec931a70649ab67c05b9be"
+          }
+        },
+        {
+          "client_id": "241170911565-2s13bq5oj2bbgo4el8epiivsl7i4rth5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDR4AokrhRrBn5MwJDyaftTpJFcMlLR9JU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "241170911565-2s13bq5oj2bbgo4el8epiivsl7i4rth5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
