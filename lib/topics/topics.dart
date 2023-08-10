@@ -29,8 +29,8 @@ class TopicPage extends StatelessWidget {
             ),
             body: GridView.count(
               primary: false,
-              padding: const EdgeInsets.all(20.0),
-              crossAxisSpacing: 10.0,
+              padding: const EdgeInsets.all(18.0),
+              crossAxisSpacing: 12.0,
               crossAxisCount: 2,
               children: topics.map((topic) => Text(topic.title)).toList(),
 
