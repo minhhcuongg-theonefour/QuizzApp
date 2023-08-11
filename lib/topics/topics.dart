@@ -3,6 +3,9 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:quizzapp/services/firestore.dart';
 import 'package:quizzapp/services/models.dart';
 import 'package:quizzapp/shared/bottom_nav.dart';
+import 'package:quizzapp/topics/topic_item.dart';
+
+import 'drawer.dart';
 
 class TopicPage extends StatelessWidget {
   const TopicPage({super.key});
@@ -27,12 +30,13 @@ class TopicPage extends StatelessWidget {
               backgroundColor: Colors.deepPurple,
               title: const Text('Topics'),
             ),
+            drawer: TopicDrawer(topics : topics),
             body: GridView.count(
               primary: false,
               padding: const EdgeInsets.all(18.0),
               crossAxisSpacing: 12.0,
               crossAxisCount: 2,
-              children: topics.map((topic) => Text(topic.title)).toList(),
+              children: topics.map((topic) => TopicItem(topic: topic)).toList(),
 
             ),
             bottomNavigationBar: const BottomNavBar(),
