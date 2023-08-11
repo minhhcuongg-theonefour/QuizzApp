@@ -76,8 +76,8 @@ class TopicScreen extends StatelessWidget {
         ),
         Text(
           topic.title,
-          style:
-          const TextStyle(height: 2, fontSize: 20, fontWeight: FontWeight.bold),
+          style: const TextStyle(
+              height: 2, fontSize: 20, fontWeight: FontWeight.bold),
         ),
       ]),
     );
