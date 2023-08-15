@@ -4,7 +4,9 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This is a simple quizz application.
+
+- [Learning source:](https://fireship.io/)
 
 A few resources to get you started if this is your first Flutter project:
 
