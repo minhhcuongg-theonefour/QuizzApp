@@ -6,7 +6,7 @@ A new Flutter project.
 
 This is a simple quizz application.
 
-- [Learning source:](https://fireship.io/)
+- [Learning source](https://fireship.io/)
 
 A few resources to get you started if this is your first Flutter project:
 
