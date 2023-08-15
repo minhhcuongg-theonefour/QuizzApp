@@ -47,11 +47,9 @@ class ProfilePage extends StatelessWidget {
               ElevatedButton(
                 child: const Text('logout'),
                 onPressed: () async {
-                  await AuthService().signOut();
-                  if (mounted) {
+                  await AuthService().logOut();
                     Navigator.of(context)
                         .pushNamedAndRemoveUntil('/', (route) => false);
-                  }
                 },
               ),
               const Spacer(),
@@ -60,7 +58,7 @@ class ProfilePage extends StatelessWidget {
         ),
       );
     } else {
-      return const Shader();
+      return const Text('this is profile page');
     }
   }
 }
